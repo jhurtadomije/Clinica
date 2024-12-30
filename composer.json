@@ -1,0 +1,26 @@
+{
+    "name": "jhurt/clinica2",
+    "description": "clinica2",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Jhurt\\Clinica2\\": "./",
+            "Controllers\\" : "./Controllers",
+            "Models\\" : "./Models",
+            "Lib\\" : "./Lib",
+            "Repositories\\" : "./Repositories",
+            "Services\\" : "./Services"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jose Ramon Hurtado Mije",
+            "email": "jhurtadomije@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+      "ext-pdo": "*"
+    }
+}
